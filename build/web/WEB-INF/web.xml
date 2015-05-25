@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>AfterRegistration</servlet-name>
+        <servlet-class>AfterRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserList</servlet-name>
+        <servlet-class>Servlet.UserList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PersonPage</servlet-name>
+        <servlet-class>PersonPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AfterRegistration</servlet-name>
+        <url-pattern>/AfterRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserList</servlet-name>
+        <url-pattern>/UserList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PersonPage</servlet-name>
+        <url-pattern>/PersonPage</url-pattern>
+    </servlet-mapping>
+</web-app>
